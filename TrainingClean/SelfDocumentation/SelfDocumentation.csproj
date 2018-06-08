@@ -5,8 +5,4 @@
     <RootNamespace>SelfDocumentation</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Lab02\Excercise\Sample\" />
-  </ItemGroup>
-
 </Project>

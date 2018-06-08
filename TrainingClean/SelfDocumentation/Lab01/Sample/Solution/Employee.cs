@@ -4,13 +4,13 @@ using System.Text;
 
 namespace SelfDocumentation.Lab01.Sample.Solution
 {
-    class Employee
+    public class Employee
     {
         private const long BasicSalary = 1000L;
         private const int BonusFactor = 2;
 
         private const int MinimumPatternKnowhowPercentageOfSenior = 50;
-        private const int MinimumYearsExperienceOfSenior = 3;
+        private const int MinimumYearsExperienceOfSenior = 2;
 
         public readonly bool RelatedToManager;
         public readonly int PercentagePatternKnowHow;

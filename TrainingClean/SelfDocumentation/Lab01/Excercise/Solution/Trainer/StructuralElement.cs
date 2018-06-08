@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
+using System.Diagnostics.Contracts;
 
 namespace SelfDocumentation.Lab01.Excercise.Solution.Trainer
 {
