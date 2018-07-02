@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject>ContractAndAPI.Lab01.Sample.Challenge.InputAndOutput</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Lab01\Excercise\Solution\Trainer\" />
+  </ItemGroup>
+
+</Project>

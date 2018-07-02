@@ -21,7 +21,7 @@ namespace SelfDocumentation.UnitTests
         [DataRow("93,20;98,22", 2000, 12.0, Alert.Red)]
 
         [DataTestMethod]
-        public void testAlert(String elements, long oxygen, double battery, Alert expectedAlert)
+        public void TestAlert(String elements, long oxygen, double battery, Alert expectedAlert)
         {
             SpaceStation testObject = new SpaceStation();
             parseElements(elements,testObject.Elements);
