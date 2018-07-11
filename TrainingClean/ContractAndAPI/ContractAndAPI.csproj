@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <ApplicationIcon />
     <OutputType>Exe</OutputType>
-    <StartupObject>ContractAndAPI.Lab01.Sample.Challenge.InputAndOutput</StartupObject>
+    <StartupObject>ContractAndAPI.Lab02.Excercise.Solution.Trainer.Battery</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
