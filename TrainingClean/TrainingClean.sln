@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelfDocumentation", "SelfDo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelfDocumentation.UnitTests", "SelfDocumentation.UnitTests\SelfDocumentation.UnitTests.csproj", "{667E4E3C-F0BD-4C3E-9CE3-4E6A6F69868B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractAndAPI", "ContractAndAPI\ContractAndAPI.csproj", "{28B8AD28-6F7F-4038-99EF-1B1747AE71C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContractAndAPI", "ContractAndAPI\ContractAndAPI.csproj", "{28B8AD28-6F7F-4038-99EF-1B1747AE71C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramStructure", "ProgramStructure\ProgramStructure.csproj", "{E4EE4875-1E24-44D9-8BA4-6E727692CD33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{28B8AD28-6F7F-4038-99EF-1B1747AE71C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28B8AD28-6F7F-4038-99EF-1B1747AE71C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28B8AD28-6F7F-4038-99EF-1B1747AE71C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4EE4875-1E24-44D9-8BA4-6E727692CD33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4EE4875-1E24-44D9-8BA4-6E727692CD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4EE4875-1E24-44D9-8BA4-6E727692CD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4EE4875-1E24-44D9-8BA4-6E727692CD33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
