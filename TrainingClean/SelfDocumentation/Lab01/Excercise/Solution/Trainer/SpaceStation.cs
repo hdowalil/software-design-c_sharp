@@ -17,13 +17,13 @@ namespace SelfDocumentation.Lab01.Excercise.Solution.Trainer
         public long Oxygen = InitialLevelOfOxygen;
         public double BatteryAmpereHours = InitialLevelOfAmpereHoursInABattery;
 
-        public void logStatus()
+        public void LogStatus()
         {
             Console.WriteLine(
                 $"Number of Elements: {Elements.Count} / Oxygen: {Oxygen} / Battery: {BatteryAmpereHours}");
         }
 
-        private Alert checkOxygen4Alert()
+        private Alert CheckOxygen4Alert()
         {
             if (Oxygen < RedAlertOxygen)
             {
@@ -39,7 +39,7 @@ namespace SelfDocumentation.Lab01.Excercise.Solution.Trainer
             }
         }
 
-        private Alert checkBattery4Alert()
+        private Alert CheckBattery4Alert()
         {
             if (BatteryAmpereHours < RedAlertBatteryAmpereHours)
             {
@@ -55,13 +55,13 @@ namespace SelfDocumentation.Lab01.Excercise.Solution.Trainer
             }
         }
 
-        public Alert check4Problem()
+        public Alert Check4Problem()
         {
 
-            return AlertExtensions.getMaximumSeverity(
-                    StructuralElement.checkElements4Alert(Elements),
-                    checkOxygen4Alert(),
-                    checkBattery4Alert());
+            return AlertExtensions.GetMaximumSeverity(
+                    StructuralElement.CheckElements4Alert(Elements),
+                    CheckOxygen4Alert(),
+                    CheckBattery4Alert());
         }
     }
 }

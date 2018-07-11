@@ -18,7 +18,7 @@ namespace SelfDocumentation.Lab01.Excercise.Solution.Trainer
 
     static class AlertExtensions
     {
-        public static Alert getMaximumSeverity(params Alert[] alerts)
+        public static Alert GetMaximumSeverity(params Alert[] alerts)
         {
             return alerts.Max();
         }

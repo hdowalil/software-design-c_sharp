@@ -22,7 +22,7 @@ namespace SelfDocumentation.Lab01.Excercise.Solution.Trainer
             TemperatureInCelsius = temperatureInCelsius;
         }
 
-        private static Alert checkIntegrity4Alert(IEnumerable<StructuralElement> elements)
+        private static Alert CheckIntegrity4Alert(IEnumerable<StructuralElement> elements)
         {
             int minIntegrity = elements.Min(e => e.StructuralIntegrityPercent);
 
@@ -40,7 +40,7 @@ namespace SelfDocumentation.Lab01.Excercise.Solution.Trainer
             }
         }
 
-        private static Alert checkTemperature4Alert(IEnumerable<StructuralElement> elements)
+        private static Alert CheckTemperature4Alert(IEnumerable<StructuralElement> elements)
         {
             int maxTemperature = elements.Max(e => e.TemperatureInCelsius);
 
@@ -58,14 +58,14 @@ namespace SelfDocumentation.Lab01.Excercise.Solution.Trainer
             }
         }
 
-        public static Alert checkElements4Alert(IEnumerable<StructuralElement> elements)
+        public static Alert CheckElements4Alert(IEnumerable<StructuralElement> elements)
         {
             // A spacestation with 0 structural elements would not exist at all and therefore cannot be
             Contract.Requires(elements != null && elements.Count() > 0);
 
-            return AlertExtensions.getMaximumSeverity(
-                    checkIntegrity4Alert(elements),
-                    checkTemperature4Alert(elements));
+            return AlertExtensions.GetMaximumSeverity(
+                    CheckIntegrity4Alert(elements),
+                    CheckTemperature4Alert(elements));
         }
 
     }

@@ -28,9 +28,9 @@ namespace SelfDocumentation.UnitTests
             testObject.Oxygen = oxygen;
             testObject.BatteryAmpereHours = battery;
 
-            testObject.logStatus();
+            testObject.LogStatus();
 
-            Assert.AreEqual(expectedAlert, testObject.check4Problem());
+            Assert.AreEqual(expectedAlert, testObject.Check4Problem());
         }
 
         private void parseElements(String input, ICollection<StructuralElement> result)
