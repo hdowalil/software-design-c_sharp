@@ -7,8 +7,4 @@
     <StartupObject>ContractAndAPI.Lab02.Excercise.Solution.Trainer.Battery</StartupObject>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Lab01\Excercise\Solution\Trainer\" />
-  </ItemGroup>
-
 </Project>
