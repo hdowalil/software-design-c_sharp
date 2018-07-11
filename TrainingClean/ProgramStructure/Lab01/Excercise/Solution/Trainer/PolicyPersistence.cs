@@ -23,11 +23,11 @@ namespace ProgramStructure.Lab01.Excercise.Solution.Trainer
                     risk.Premium, risk.InsuredVehicle.RegistrationId, risk.InsuredVehicle.Type);
             }
 
-            System.IO.File.WriteAllLines("/Temp/policy.txt", lines);
+            System.IO.File.WriteAllLines(file, lines);
 
         }
 
-        public static void Main(String[] args)
+        public static void Main(string[] args)
         {
 
             PolicyPersistence persistence = new PolicyPersistence();
