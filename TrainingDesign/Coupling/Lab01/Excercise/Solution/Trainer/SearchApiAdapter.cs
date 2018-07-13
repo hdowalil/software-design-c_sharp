@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Coupling.Lab01.Excercise.Solution.Trainer
 {
-    class SearchApiAdapter : PersonSearchProviderInterface
+    class SearchApiAdapter : IPersonSearchProvider
     {
         public Coupling.Lab01.Excercise.Challenge.Legacy.Person ReadById(long id)
         {

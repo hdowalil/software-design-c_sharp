@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Coupling.Lab01.Excercise.Challenge.Legacy
 {
-    interface PersonSearchProviderInterface
+    interface IPersonSearchProvider
     {
         Person ReadById(long id);
 

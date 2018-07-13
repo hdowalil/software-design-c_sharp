@@ -6,9 +6,9 @@ namespace Coupling.Lab01.Excercise.Challenge.Legacy
 {
     class LegacyUserInterface
     {
-        private PersonSearchProviderInterface searchApi;
+        private IPersonSearchProvider searchApi;
 
-        public LegacyUserInterface(PersonSearchProviderInterface searchApi)
+        public LegacyUserInterface(IPersonSearchProvider searchApi)
         {
             this.searchApi = searchApi;
         }

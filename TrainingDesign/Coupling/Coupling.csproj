@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <StartupObject>Coupling.Lab01.Excercise.Solution.Trainer.RunLegacyUIWithCots</StartupObject>
+    <StartupObject>Coupling.Lab01.Sample.Solution.ViewStarTrekOnTV</StartupObject>
   </PropertyGroup>
 
 </Project>

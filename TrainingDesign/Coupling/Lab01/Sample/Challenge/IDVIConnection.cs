@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Coupling.Lab01.Sample.Challenge
 {
-    interface HDMIConnection
+    interface IDVIConnection
     {
-        byte[] StreamAudioAndVideo();
+        byte[] TransmitVideo();
     }
 }
