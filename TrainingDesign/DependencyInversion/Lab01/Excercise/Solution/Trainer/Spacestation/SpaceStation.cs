@@ -1,9 +1,10 @@
-﻿using DependencyInversion.Lab01.Excercise.Challenge.Universe;
+﻿using DependencyInversion.Lab01.Excercise.Solution.Trainer.Universe;
 using System.Diagnostics.Contracts;
 
-namespace DependencyInversion.Lab01.Excercise.Challenge.Spacestation
-{
-    public class SpaceStation : Debris
+namespace DependencyInversion.Lab01.Excercise.Solution.Trainer.Spacestation
+{ 
+
+    public class SpaceStation : Debris, IDebrisMovementObserver
     {
         private const int StationSize = 10;
 
@@ -17,6 +18,7 @@ namespace DependencyInversion.Lab01.Excercise.Challenge.Spacestation
         {
             this.space = space;
             this.space.DeployDebris(this);
+            this.space.AddObserver(this);
             CollisionConsumer = ((d) => {
                 CollisionHappened();
             });

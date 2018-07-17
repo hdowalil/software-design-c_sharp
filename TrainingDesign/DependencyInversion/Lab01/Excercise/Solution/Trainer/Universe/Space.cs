@@ -1,16 +1,14 @@
-﻿using DependencyInversion.Lab01.Excercise.Challenge.Spacestation;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Linq;
 
-namespace DependencyInversion.Lab01.Excercise.Challenge.Universe
+namespace DependencyInversion.Lab01.Excercise.Solution.Trainer.Universe
 {
     public class Space
     {
         private IList<Debris> allDebrisInSpace = new List<Debris>();
-
-        private SpaceStation station = null;
+        private IList<IDebrisMovementObserver> allDebrisMovementObserver = new List<IDebrisMovementObserver>();
 
         public Debris GetDebris(int index)
         {
@@ -27,16 +25,23 @@ namespace DependencyInversion.Lab01.Excercise.Challenge.Universe
             allDebrisInSpace.Clear();
         }
 
+        public Space AddObserver(IDebrisMovementObserver observer)
+        {
+            Contract.Requires(observer != null);
+
+            allDebrisMovementObserver.Add(observer);
+
+            Contract.Ensures(allDebrisMovementObserver.Count > 0);
+
+            return this;
+        }
+
         public Space DeployDebris(Debris debris)
         {
 
             if (allDebrisInSpace.Contains(debris))
             {
                 throw new ArgumentException();
-            }
-
-            if (debris is SpaceStation) {
-                this.station = (SpaceStation)debris;
             }
 
             allDebrisInSpace.Add(debris);
@@ -79,9 +84,9 @@ namespace DependencyInversion.Lab01.Excercise.Challenge.Universe
                 debris.Collide(d);
             }
 
-            if (station != null)
+            foreach (IDebrisMovementObserver observer in allDebrisMovementObserver)
             {
-                station.DebrisHasMoved(debris);
+                observer.DebrisHasMoved(debris);
             }
 
         }
