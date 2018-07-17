@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject>DependencyInversion.Lab02.Excercise.Solution.Trainer.RunMe</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
