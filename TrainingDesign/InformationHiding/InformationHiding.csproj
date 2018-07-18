@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <ApplicationIcon />
-    <StartupObject>InformationHiding.Lab02.Sample.Solution.Driver</StartupObject>
+    <StartupObject>InformationHiding.Lab02.Excercise.Solution.Trainer.MissionControl</StartupObject>
   </PropertyGroup>
 
 </Project>
