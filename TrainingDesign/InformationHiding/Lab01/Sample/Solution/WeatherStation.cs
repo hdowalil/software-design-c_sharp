@@ -35,7 +35,6 @@ namespace InformationHiding.Lab01.Sample.Solution
 
         private int Measure()
         {
-
             // now let´s assume this is a very complex thing to do:
             Random rnd = new Random();
             int temperature = rnd.Next(100);
