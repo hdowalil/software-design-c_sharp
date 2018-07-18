@@ -1,10 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <ApplicationIcon />
-    <StartupObject />
+    <StartupObject>InformationHiding.Lab02.Sample.Solution.Driver</StartupObject>
   </PropertyGroup>
 
 </Project>
