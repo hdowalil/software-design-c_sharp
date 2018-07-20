@@ -37,7 +37,7 @@ namespace Modularization.Lab01.Excercise.Challenge
 
         public int GetSum()
         {
-            return positions.Sum(item => item.Amount);
+            return positions.Sum(item => (int) item.Product * item.Amount);
         }
     }
 }

@@ -8,7 +8,6 @@ namespace Modularization.Lab01.Excercise.Challenge
     {
         public static void ParcelAndShip(Order order, Customer customer)
         {
-
             IDictionary<Product, int> parcel = new Dictionary<Product, int>();
 
             for (int i = 0; i < order.Count(); i++)
