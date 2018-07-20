@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversion", "Depe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInversion.UnitTests", "DependencyInversion.UnitTests\DependencyInversion.UnitTests.csproj", "{EB76C3D0-7101-4C45-B13D-336D9DEAD7DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InformationHiding", "InformationHiding\InformationHiding.csproj", "{99C31B02-03CB-4500-97FE-4976A1229E91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InformationHiding", "InformationHiding\InformationHiding.csproj", "{99C31B02-03CB-4500-97FE-4976A1229E91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InformationHiding.UnitTests", "InformationHiding.UnitTests\InformationHiding.UnitTests.csproj", "{03DBC08F-EC4B-43A9-B8F5-16FEA9EE8670}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InformationHiding.UnitTests", "InformationHiding.UnitTests\InformationHiding.UnitTests.csproj", "{03DBC08F-EC4B-43A9-B8F5-16FEA9EE8670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modularization", "Modularization\Modularization.csproj", "{86AF3EDD-EF23-4406-92D9-17C288CFB15F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modularization.UnitTests", "Modularization.UnitTests\Modularization.UnitTests.csproj", "{1A115AA8-A337-4945-850D-9B530A2038D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{03DBC08F-EC4B-43A9-B8F5-16FEA9EE8670}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03DBC08F-EC4B-43A9-B8F5-16FEA9EE8670}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03DBC08F-EC4B-43A9-B8F5-16FEA9EE8670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86AF3EDD-EF23-4406-92D9-17C288CFB15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86AF3EDD-EF23-4406-92D9-17C288CFB15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86AF3EDD-EF23-4406-92D9-17C288CFB15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86AF3EDD-EF23-4406-92D9-17C288CFB15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A115AA8-A337-4945-850D-9B530A2038D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A115AA8-A337-4945-850D-9B530A2038D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A115AA8-A337-4945-850D-9B530A2038D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A115AA8-A337-4945-850D-9B530A2038D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
