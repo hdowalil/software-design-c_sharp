@@ -6,4 +6,9 @@
     <StartupObject>Modularization.Lab02.Excercise.Challenge.UI.GamesConsole</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Lab02\Solution\Trainer\BlackJack\UI\" />
+    <Folder Include="Lab02\Solution\Trainer\NumberGuess\UI\" />
+  </ItemGroup>
+
 </Project>
