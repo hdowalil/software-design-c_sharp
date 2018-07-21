@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Modularization.Lab02.Solution.Trainer.Portal
 {
-    interface GamesConsole
+    interface IGameConsole
     {
         int Run();
 
